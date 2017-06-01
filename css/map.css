@@ -1,0 +1,40 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body,
+button,
+input,
+select,
+textarea {
+	font: 12px/16px Verdana, Helvetica, Arial, sans-serif;
+}
+/*.topBox{
+	position: static;
+}*/
+#pano_container{
+	position: relative;
+}
+#mapMyList{
+	list-style: none;
+	position: absolute;
+	left: 0;
+	bottom: 100px;
+	z-index: 100;
+	padding: 30px;
+}
+#mapMyList li{
+	margin-bottom: 15px;
+    font-size: 18px;
+    padding: 10px 12px;
+    border: 1px solid darkgreen;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#mapMyList li:hover{
+	background: rgba(1,71,34,.8);
+	color: #FFFFFF;
+}
+

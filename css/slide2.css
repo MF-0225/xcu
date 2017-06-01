@@ -1,0 +1,40 @@
+body {
+	overflow: hidden;
+}
+
+.swiper-container {
+	width: 900px;
+	height: 400px;
+	margin: 80px auto;
+}
+
+.swiper-wrapper {
+	position: relative;
+}
+
+.swiper-slide img {
+	float: right;
+	width: 60%;
+	height: 400px;
+}
+
+.swiper-slide span {
+	position: absolute;
+	left: 0;
+	top: 0;
+	font-size: 48px;
+	color: aquamarine;
+	width: 40%;
+	height: 100%;
+	line-height: 400px;
+	text-align: center;
+	font-family: '华文新魏';
+	/*background: url(../img/18.jpg) -300px -200px;*/
+}
+
+@media(max-width:1080px) {
+	.swiper-slide img {
+		width: 64%;
+		height: 360px;
+	}
+}

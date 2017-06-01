@@ -1,0 +1,73 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.center {
+	width: 1200px;
+	margin: 0 auto;
+}
+/*定义导航栏的位置*/
+.topBox {
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 50;
+	background: rgba(255, 255, 255, .2);
+	overflow: hidden;
+}
+
+.navBox {
+	margin-top: 10px;
+	overflow: hidden;
+}
+
+.logoBox {
+	float: left;
+}
+
+
+/*弹性导航*/
+
+.nav {
+	float: right;
+	margin-top: 24px;
+	font-size: 24px;
+	font-family: cursive;
+}
+
+#outer {
+	overflow: hidden;
+	position: relative;
+}
+
+#outer li {
+	list-style: none;
+	width: 80px;
+	height: 35px;
+	border-radius: 20px;
+	text-align: center;
+	line-height: 35px;
+	float: left;
+	cursor: pointer;
+	padding: 0 10px;
+}
+
+#outer li.active {
+	color: #FFFFFF;
+}
+
+#mvList {
+	background: #014722;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: -1;
+}
+
+@media(max-width: 1080px) {
+	.center{
+		width: 800px;
+		margin: 0 auto;
+	}
+}

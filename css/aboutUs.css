@@ -1,0 +1,100 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+#particles-js {
+	background-color: #393e3a;
+}
+
+.abuBox {
+	width: 1000px;
+	height: 470px;
+	padding: 50px;
+	/*border: 1px solid gray;*/
+	position: absolute;
+	text-align: center;
+	overflow: hidden;
+}
+
+
+/*左侧内容*/
+
+.abuBoxLeft {
+	float: left;
+}
+
+.abuBoxLeft p {
+	font-size: 24px;
+	padding-bottom: 50px;
+	color: aqua;
+}
+
+
+/*右侧内容*/
+
+.abuBoxRight {
+	float: right;
+}
+
+.abuBoxRight p {
+	font-size: 24px;
+	padding-bottom: 50px;
+	color: aqua;
+	width: 412px;
+	font-family: cursive;
+}
+
+.abuBoxRight input {
+	font-family: cursive;
+	outline: none;
+	width: 400px;
+	height: 35px;
+	line-height: 35px;
+	display: block;
+	margin: 0 auto;
+	padding: 0 5px;
+	font-size: 18px;
+	margin-bottom: 30px;
+	background: transparent;
+	color: gray;
+	border: none;
+	border-bottom: 1px solid palegreen;
+}
+
+#userWords {
+	font-family: cursive;
+	width: 400px;
+	height: 180px;
+	padding: 5px 5px;
+	resize: none;
+	overflow: hidden;
+	font-size: 20px;
+	background: transparent;
+	border-color: palegreen;
+	color: gray;
+	outline: none;
+	display: block;
+}
+
+#abuBoxBtn {
+	outline: none;
+	border: 1px solid palegreen;
+	width: 90px;
+	height: 34px;
+	line-height: 34px;
+	border-radius: 5px;
+	background: transparent;
+	color: aqua;
+	font-size: 20px;
+	margin-top: 20px;
+	cursor: pointer;
+	float: right;
+	font-family: cursive;
+}
+
+@media(max-width:1080px) {
+	.abuBox {
+		width: 880px;
+	}
+}

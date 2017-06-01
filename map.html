@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=0.4, maximum-scale=0.4, user-scalable=no" />
+		<title>许院路景</title>
+		<link rel="stylesheet" type="text/css" href="css/topNav.css" />
+		<link rel="stylesheet" type="text/css" href="css/map.css" />
+		<script charset="utf-8" src="http://map.qq.com/api/js?v=2.exp&key=JWMBZ-WIC3F-GIOJD-N2BPR-OJCI7-UFB6B"></script>
+	</head>
+
+	<body onLoad="init();">
+		<!--mapHeader start-->
+		<div class="topBox" id="topBox">
+			<div class="navBox center">
+				<div class="logoBox">
+					<img src="img/logo.png" />
+				</div>
+				<div class="nav" id="nav">
+					<ul id="outer">
+						<li>首页</li>
+						<li>农耕</li>
+						<li class="active">校景</li>
+						<li>关于</li>
+						<li id="mvList"></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<!--mapHeader end-->
+
+		<!--map start-->
+		<div style="width:100%;height:700px" id="pano_container">
+			<ul id="mapMyList">
+				<li>校门口</li>
+				<li>图书馆</li>
+				<li>艺术楼</li>
+				<li>国教楼</li>
+				<li>信工楼</li>
+			</ul>
+		</div>
+		<!--map end-->
+
+		<!--JWMBZ-WIC3F-GIOJD-N2BPR-OJCI7-UFB6B-->
+		<script src="js/tween.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/topNav.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/map.js" type="text/javascript" charset="utf-8"></script>
+	</body>
+
+</html>

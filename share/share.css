@@ -1,0 +1,41 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.share-platform{
+    clear: both;
+    margin-top: 10px;
+    width: 264px;
+    height: 79px;
+}
+.share-platform .share-platform-l{
+    float: left;
+    width: 77px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    color: #FFFFFF;
+}
+.share-platform .share-platform-r{
+    float: left;
+    width: 237px;
+}
+.share-platform .bds_weixin{
+    background-image: url('css-bg.png');
+    background-position: -13px -7px !important;
+}
+.share-platform .bds_tsina{
+    background-image: url('css-bg.png');
+    background-position: -57px -7px !important;
+}
+.share-platform .bds_sqq{
+    background-image: url('css-bg.png');
+    background-position: -101px -7px !important;
+}
+.share-platform .bds_qzone{
+    background-image: url('css-bg.png');
+    background-position: -146px -7px !important;
+}
+.share-platform .share-platform-text{
+    color: #aaa;
+    margin-top: 5px;
+}
